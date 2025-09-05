@@ -1,32 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>airbnb</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apartamento com vista para o lago - Nahuel Huapi</title>
+  <meta name="description" content="Apartamento completo com vista incrível para o lago Nahuel Huapi em San Carlos de Bariloche, Argentina">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="c-header">
-        <div class="logo"> <img src="./img/logo.png" alt="logo"></div>
-
-        <nav class="c-header__nav">
-                <ul>
-                    <li><a href="#"><img src="./img/nav_casa.png" height="50vh" alt="">Qualquer lugar</a></li>
-                    <div class="line"></div>
-                    <li><a href="#">Qualquer semana</a></li>
-                    <div class="line"></div>
-                    <li><a href="#">Hóspedes?</a></li>
-                    <div class="search_bttn"><img src="./img/search_logo.png" alt=""></div>
-                </ul>
-                
-        </nav>
-        <div class="user-options">
-            <button class="c-header__host">Seja um anfitriao</button>
-            <button class="c-header__globe"><img src="" alt="globe"></button>
-            <button class="c-header__user"><img src="" alt="menu"></button>
-            
+  <header class="header">
+    <div class="airbnb-container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="./img/logo.png" alt="">
         </div>
-    </header>
+        <div class="search-bar">
+          <div class="search-content">
+            <span class="search-item">Qualquer lugar</span>
+            <div class="search-divider"></div>
+            <span class="search-item">Qualquer semana</span>
+            <div class="search-divider"></div>
+            <span class="search-item-muted">Hóspedes?</span>
+            <div class="search-button">
+              <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="M21 21l-4.35-4.35"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="header-right">
+          <button class="host-button">Torne-se um anfitrião</button>
+          <button class="icon-button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </button>
+          <div class="profile-menu">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+            <div class="profile-avatar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="airbnb-container main-content">
+    <div class="property-header">
+      <h1 class="property-title">Apartamento com vista para o lago - Nahuel Huapi</h1>
+      <div class="property-meta">
+        <div class="property-info">
+          <div class="rating">
+            <span class="rating-score">4.88</span>
+          </div>
+          <span class="reviews-link">69 avaliações</span>
+          <span class="location-link">San Carlos de Bariloche, Argentina</span>
+        </div>
+        <div class="property-actions">
+          <button class="action-button">
+            Compartilhar
+          </button>
+          <button class="action-button">
+            Salvar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="photo-grid">
+      <div class="photo-main">
+        <img src="./img/img1.png" alt="Modern kitchen with lake view">
+      </div>
+      <div class="photo-gallery">
+        <div class="photo-item"><img src="./img/img2.png" alt="Living room with panoramic windows"></div>
+        <div class="photo-item"><img src="./img/img3.png" alt="Balcony with mountain lake view"></div>
+        <div class="photo-item"><img src="src/assets/bedroom.jpg" alt="Bedroom with natural lighting"></div>
+        <div class="photo-item">
+          <img src="./img/img4.png" alt="Modern bathroom with glass shower">
+          <button class="show-all-photos">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M2 2h4v4H2zM2 10h4v4H2zM10 2h4v4h-4zM10 10h4v4h-4z"/>
+            </svg>
+            Mostrar todas as fotos
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-grid">
+      <div class="content-left">
+        <div class="section property-details">
+          <h2 class="section-title">Espaço inteiro: apartamento em San Carlos de Bariloche, Argentina</h2>
+          <p class="property-specs">4 hóspedes • 1 quarto • 3 camas • 1 banheiro</p>
+          <div class="host-info">
+            <div class="host-avatar"></div>
+            <div class="host-details">
+              <p class="host-name">Nahuel Huapi</p>
+              <p class="host-label">Anfitrião</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section features">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 32 32"><path d="M16 2L3 14h3v14h8V20h4v8h8V14h3L16 2z"/></svg>
+            </div>
+            <div class="feature-content">
+              <h3 class="feature-title">Uma das acomodações no Airbnb que fazem mais sucesso</h3>
+              <p class="feature-description">Uma das acomodações no Airbnb que fazem mais sucesso nos últimos 3 anos com hóspedes</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg viewBox="0 0 32 32"><path d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0zm1 25h-2v-2h2v2zm1.993-6.875L18 18v-6h-4v2h2v4.125l-.993.125A1 1 0 0 0 15 20h2a1 1 0 0 0 .993-1.875z"/></svg>
+            </div>
+            <div class="feature-content">
+              <h3 class="feature-title">Preferido dos hóspedes</h3>
+              <p class="feature-description">Classificado entre os 10% das acomodações com melhor avaliação com base na categoria, preço e avaliações dos hóspedes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section description">
+          <p class="description-text">
+            Apartamento completo com vista incrível para o lago Nahuel Huapi. Localizado em uma das melhores áreas de Bariloche, oferece uma experiência única com toda a comodidade e conforto que você precisa para uma estadia perfeita. A propriedade conta com cozinha totalmente equipada, sala de estar ampla com grandes janelas e um quarto aconchegante.
+          </p>
+        </div>
+      </div>
+
+      <div class="booking-card">
+        <div class="pricing-header">
+          <div class="price-line">
+            <span class="old-price">R$3.501</span>
+            <span class="current-price">R$2.682</span>
+            <span class="price-period">por 5 noites</span>
+          </div>
+          <div class="rating-line">
+            <svg class="star-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
+            </svg>
+            <span class="rating-score">4.88</span>
+            <span class="rating-reviews">• 69 avaliações</span>
+          </div>
+        </div>
+
+        <div class="booking-form">
+          <div class="date-inputs">
+            <div class="date-input">
+              <label class="input-label">Check-in</label>
+              <input type="text" value="08/09/2025" class="date-field">
+            </div>
+            <div class="date-input">
+              <label class="input-label">Checkout</label>
+              <input type="text" value="13/09/2025" class="date-field">
+            </div>
+          </div>
+          <div class="guests-input">
+            <label class="input-label">Hóspedes</label>
+            <select class="guests-field">
+              <option value="1">1 hóspede</option>
+              <option value="2">2 hóspedes</option>
+              <option value="3">3 hóspedes</option>
+              <option value="4">4 hóspedes</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="reserve-button">Reservar</button>
+        <p class="no-charge-text">Você ainda não será cobrado</p>
+
+        <div class="price-breakdown">
+          <div class="price-row"><span class="price-label">R$536 x 5 noites</span><span class="price-value">R$2.682</span></div>
+          <div class="price-row"><span class="price-label">Taxa de limpeza</span><span class="price-value">R$200</span></div>
+          <div class="price-row"><span class="price-label">Taxa de serviço do Airbnb</span><span class="price-value">R$400</span></div>
+          <hr class="price-divider">
+          <div class="price-row total"><span class="price-label">Total antes dos impostos</span><span class="price-value">R$3.282</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
