@@ -75,12 +75,7 @@
         <div class="photo-item"><img src="src/assets/bedroom.jpg" alt="Bedroom with natural lighting"></div>
         <div class="photo-item">
           <img src="./img/img4.png" alt="Modern bathroom with glass shower">
-          <button class="show-all-photos">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-              <path d="M2 2h4v4H2zM2 10h4v4H2zM10 2h4v4h-4zM10 10h4v4h-4z"/>
-            </svg>
-            Mostrar todas as fotos
-          </button>
+         
         </div>
       </div>
     </div>
@@ -102,7 +97,7 @@
         <div class="section features">
           <div class="feature-item">
             <div class="feature-icon">
-              <svg viewBox="0 0 32 32"><path d="M16 2L3 14h3v14h8V20h4v8h8V14h3L16 2z"/></svg>
+              <img src="./img/home.png"  style="width: 30px;" alt="home">
             </div>
             <div class="feature-content">
               <h3 class="feature-title">Uma das acomodações no Airbnb que fazem mais sucesso</h3>
@@ -111,7 +106,7 @@
           </div>
           <div class="feature-item">
             <div class="feature-icon">
-              <svg viewBox="0 0 32 32"><path d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0zm1 25h-2v-2h2v2zm1.993-6.875L18 18v-6h-4v2h2v4.125l-.993.125A1 1 0 0 0 15 20h2a1 1 0 0 0 .993-1.875z"/></svg>
+              <img src="./img/taca.png" style="width: 30px;" alt="taça">
             </div>
             <div class="feature-content">
               <h3 class="feature-title">Preferido dos hóspedes</h3>
@@ -135,9 +130,11 @@
             <span class="price-period">por 5 noites</span>
           </div>
           <div class="rating-line">
-            <svg class="star-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
-            </svg>
+            
+              <div class="star">
+                <img src="./img/star.png"  style="width: 10px;"  alt="star">
+              </div>
+            
             <span class="rating-score">4.88</span>
             <span class="rating-reviews">• 69 avaliações</span>
           </div>
@@ -178,46 +175,101 @@
       </div>
     </div>
     <div>
-      <h3>mostrar mais</h3>
+      <button class="mostrar-mais">  mostrar mais</button>
     </div>
-    <section class="section amenities">
-  <h2 class="section-title">O que esse lugar oferece</h2>
+    <section class="comodidades">
+  <h2 class="titulo">O que esse lugar oferece</h2>
 
-  <div class="amenities-grid">
-    <div class="amenity-item">
+  <div class="comodidades-grid">
+    <div class="comodidade-item">
       <span class="icon">🍳</span> Cozinha
     </div>
-    <div class="amenity-item">
+    <div class="comodidade">
       <span class="icon">🚗</span> Estacionamento gratuito na entrada da propriedade: 1 vaga
     </div>
-    <div class="amenity-item">
+    <div class="comodidade">
       <span class="icon">🛁</span> Banheira
     </div>
-    <div class="amenity-item">
+    <div class="comodidade">
       <span class="icon">🛏️</span> Berço portátil para viagem pago: disponível mediante solicitação
     </div>
-    <div class="amenity-item unavailable">
-      <span class="icon">🚫</span> Alarme de monóxido de carbono
+    <div class="comodidade unavailable">
+      <img src="./img/proibido.png" style="width: 20px;" alt="proibido"> Alarme de monóxido de carbono
     </div>
-    <div class="amenity-item">
-      <span class="icon">📶</span> Wi-Fi
+    <div class="comodidade">
+      <img src="./img/wifi.png"  style="width: 20px;" alt="wifi"> Wi-Fi
     </div>
-    <div class="amenity-item">
-      <span class="icon">📺</span> TV de alta definição de 42 polegadas
+    <div class="comodidade">
+       <img src="./img/tv.png" style="width: 20px;" alt="tv"> TV de alta definição de 42 polegadas
     </div>
-    <div class="amenity-item">
-      <span class="icon">🌳</span> Quintal privado — totalmente cercado
+    <div class="comodidade">
+       <img src="./img/arvore.png" style="width: 20px;" alt="arvore"> Quintal privado — totalmente cercado
     </div>
-    <div class="amenity-item">
-      <span class="icon">📹</span> Câmeras de segurança na parte externa da propriedade
+    <div class="comodidade">
+       <img src="./img/camera-de-video.png" style="width: 20px;" alt="camera"> Câmeras de segurança na parte externa da propriedade
     </div>
-    <div class="amenity-item unavailable">
-      <span class="icon">🚫</span> Detector de fumaça
+    <div class="comodidade unavailable">
+       <img src="./img/proibido.png" style="width: 20px;" alt="proibido"> Detector de fumaça
     </div>
   </div>
 
   <button class="btn-show-all">Mostrar todas as 43 comodidades</button>
 </section>
+
+<section class="reviews-section">
+  <div class="reviews-header">
+    <h2 class="reviews-score">4,98</h2>
+    <p class="reviews-subtitle">Preferido dos hóspedes</p>
+    <p class="reviews-description">
+      Esta acomodação está no <b>top 5%</b> dos anúncios elegíveis, baseado em avaliações,
+      comentários e confiabilidade
+    </p>
+  </div>
+
+  
+  <div class="reviews-tags">
+    <span>limpo</span>
+    <span>perto da praia</span>
+    <span>hospitalidade excelente</span>
+    <span>bem-equipado</span>
+    <span>aconchegante</span>
+    <span>fotos genuínas</span>
+    <span>perto de restaurantes</span>
+  </div>
+
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="review-user">
+        <img src="./img/user.png" alt="Bruna">
+        <div>
+          <p class="user-name">Bruna</p>
+          <p class="user-meta">10 anos no Airbnb</p>
+        </div>
+      </div>
+      <p class="review-date">★★★★★ · junho de 2025 · Ficou algumas noites</p>
+      <p class="review-text">
+        Amamos nossa hospedagem na casa do Marcellus! Nos sentimos em casa e muito bem acolhidos!
+      </p>
+      <a href="#">Mostrar mais</a>
+    </div>
+
+    <div class="review-card">
+      <div class="review-user">
+        <img src="./img/user.png" alt="Matheus Malzone">
+        <div>
+          <p class="user-name">Matheus Malzone</p>
+          <p class="user-meta">3 anos no Airbnb</p>
+        </div>
+      </div>
+      <p class="review-date">★★★★★ · maio de 2025 · Ficou algumas noites</p>
+      <p class="review-text">
+        A acomodação superou todas as expectativas, oferecendo um ambiente extremamente agradável.
+      </p>
+      <a href="#">Mostrar mais</a>
+    </div>
+  </div>
+</section>
+
 
   </main>
 </body>
