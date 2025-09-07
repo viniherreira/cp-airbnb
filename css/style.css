@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Reset bÃ¡sico */
 * {
     margin: 0;
     padding: 0;
@@ -220,7 +220,7 @@ body {
 /* Photo Gallery */
 .grade-fotos {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: repeat(2, 240px);
     gap: 8px;
     border-radius: 12px;
@@ -262,12 +262,22 @@ body {
 }
 
 .foto2 {
-    grid-column: 2 / 3;
+    grid-column: 2 / 2;
     grid-row: 1 / 2;
 }
 
 .foto3 {
-    grid-column: 2 / 3;
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;
+}
+
+.foto4 {
+    grid-column: 3 / 3;
+    grid-row: 1 / 2;
+}
+
+.foto5 {
+    grid-column: 3 / 3;
     grid-row: 2 / 3;
 }
 
@@ -280,8 +290,6 @@ body {
     align-items: start;
 }
 
-.lado-esquerdo {
-}
 
 .secao {
     padding-bottom: 32px;
