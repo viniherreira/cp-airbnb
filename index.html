@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Apartamento com vista para o lago - Nahuel Huapi</title>
   <meta name="description" content="Apartamento completo com vista incrível para o lago Nahuel Huapi em San Carlos de Bariloche, Argentina">
+  <link rel="icon" type="image/png" href="./img/logoTopo.png">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -12,221 +13,190 @@
     <div class="container-airbnb">
       <div class="conteudo-cabecalho">
         <div class="logo">
-          <img src="./img/logo.png" alt="logo">
+          <img src="./img/logo.png" alt="Logo Airbnb">
         </div>
-        <div class="barra-pesquisa">
+
+        <nav class="barra-pesquisa" aria-label="Pesquisar imóveis">
           <div class="conteudo-pesquisa">
-            <div> <img src="img/nav_casa.png" style="width: 50px;"  alt="casa"></div>
+            <img src="img/nav_casa.png" style="width: 50px;" alt="Ícone de casa">
             <span class="item-pesquisa">Qualquer lugar</span>
-            <div class="divisor-pesquisa"></div>
+            <span class="divisor-pesquisa"></span>
             <span class="item-pesquisa">Qualquer semana</span>
-            <div class="divisor-pesquisa"></div>
+            <span class="divisor-pesquisa"></span>
             <span class="item-pesquisa-suave">Hóspedes?</span>
-            <div class="botao-pesquisa">
-              <img src="img/lupa-removebg-preview.png" style="width: 30px;" alt="lupa">
-            </div>
+            <button class="botao-pesquisa" aria-label="Buscar">
+              <img src="img/search_logo.png" alt="Ícone de lupa para busca">
+            </button>
           </div>
-        </div>
+        </nav>
+
         <div class="cabecalho-direita">
           <button class="botao-anfitriao">Torne-se um anfitrião</button>
-          <button class="botao-icone">
-            <img src="img/globo.png"  style="width: 20px;"  alt="globo">
+          <button class="botao-icone" aria-label="Selecionar idioma">
+            <img src="img/globo.png" style="width: 20px;" alt="Ícone de globo terrestre">
           </button>
-          <div class="menu-perfil">
-            <img src="img/menu.png" style="width: 20px;"  alt="menu">
-          </div>
+          <button class="menu-perfil" aria-label="Menu do usuário">
+            <img src="img/menu.png" style="width: 20px;" alt="Ícone de menu">
+          </button>
         </div>
       </div>
     </div>
   </header>
 
   <main class="container-airbnb conteudo-principal">
-    <div class="cabecalho-imovel">
+    <header class="cabecalho-imovel">
       <h1 class="titulo-imovel">Apartamento com vista para o lago - Nahuel Huapi</h1>
       <div class="meta-imovel">
         <div class="informacoes-imovel">
-          <div class="avaliacao">
-            <span class="nota-avaliacao">4.88</span>
-          </div>
-          <span class="link-avaliacoes">69 avaliações</span>
-          <span class="link-localizacao">San Carlos de Bariloche, Argentina</span>
+          <output class="avaliacao" aria-label="Nota de avaliação">4.88</output>
+          <a href="#avaliacoes" class="link-avaliacoes">69 avaliações</a>
+          <p class="link-localizacao">San Carlos de Bariloche, Argentina</p>
         </div>
         <div class="acoes-imovel">
           <button class="botao-acao">
-            <img src="img/compartilhar.png" style="width: 27px;" alt="compartilhar">
+            <img src="img/compartilhar.png" style="width: 27px;" alt="Ícone compartilhar">
             Compartilhar
           </button>
           <button class="botao-acao">
-            <img src="img/coracao.png" style="width: 20px;"  alt="heart">
+            <img src="img/coracao.png" style="width: 20px;" alt="Ícone coração salvar">
             Salvar
           </button>
         </div>
       </div>
-    </div>
+    </header>
 
-    <div class="grade-fotos">
-      <div class="foto-principal">
-        <img src="./img/img1.png" alt="Modern kitchen with lake view">
-      </div>
-      <div class="item-foto foto2">
-        <img src="./img/img2.png" alt="Living room">
-      </div>
-      <div class="item-foto foto3">
-        <img src="./img/img3.png" alt="Balcony">
-      </div>
-      <div class="item-foto foto4">
-        <img src="./img/img4.png" alt="Kitchen">
-      </div>
-      <div class="item-foto foto5">
-        <img src="./img/img5.png" alt="Kitchen and Living room">
-      </div>
-    </div>
+    <section class="grade-fotos" aria-label="Galeria de imagens do imóvel">
+      <figure class="foto-principal">
+        <img src="./img/img1.png" alt="Cozinha moderna com vista para o lago">
+      </figure>
+      <figure class="item-foto foto2">
+        <img src="./img/img2.png" alt="Sala de estar aconchegante">
+      </figure>
+      <figure class="item-foto foto3">
+        <img src="./img/img3.png" alt="Sacada com vista panorâmica para o lago">
+      </figure>
+      <figure class="item-foto foto4">
+        <img src="./img/img4.png" alt="Cozinha equipada com eletrodomésticos">
+      </figure>
+      <figure class="item-foto foto5">
+        <img src="./img/img5.png" alt="Cozinha integrada à sala de estar">
+      </figure>
+    </section>
 
-    <div class="grade-conteudo">
-      <div class="lado-esquerdo">
-        <div class="secao detalhes-imovel">
+    <section class="grade-conteudo">
+      <article class="lado-esquerdo">
+        <section class="detalhes-imovel">
           <h2 class="titulo-secao">Espaço inteiro: apartamento em San Carlos de Bariloche, Argentina</h2>
           <p class="especificacoes-imovel">4 hóspedes • 1 quarto • 3 camas • 1 banheiro</p>
+        </section>
+
+        <section class="caracteristicas">
           <div class="informacoes-anfitriao">
-            <div class="avatar-anfitriao"></div>
+            <div class="usuario-avaliacao">
+              <img src="./img/user.png" alt="Avatar do anfitrião">
+            </div>
             <div class="detalhes-anfitriao">
               <p class="nome-anfitriao">Nahuel Huapi</p>
               <p class="rotulo-anfitriao">Anfitrião</p>
             </div>
           </div>
-        </div>
-
-        <div class="secao caracteristicas">
-          <div class="item-caracteristica">
-            <div class="icone-caracteristica">
-              <img src="./img/home.png"  style="width: 30px;" alt="home">
-            </div>
-            <div class="conteudo-caracteristica">
+          <article class="item-caracteristica">
+            <img src="./img/home.png" style="width: 30px;" alt="Ícone de casa">
+            <div>
               <h3 class="titulo-caracteristica">Uma das acomodações no Airbnb que fazem mais sucesso</h3>
               <p class="descricao-caracteristica">Uma das acomodações no Airbnb que fazem mais sucesso nos últimos 3 anos com hóspedes</p>
             </div>
-          </div>
-          <div class="item-caracteristica">
-            <div class="icone-caracteristica">
-              <img src="./img/taca.png" style="width: 30px;" alt="taça">
-            </div>
-            <div class="conteudo-caracteristica">
+          </article>
+          <article class="item-caracteristica">
+            <img src="./img/taca.png" style="width: 30px;" alt="Ícone de taça de prêmio">
+            <div>
               <h3 class="titulo-caracteristica">Preferido dos hóspedes</h3>
               <p class="descricao-caracteristica">Classificado entre os 10% das acomodações com melhor avaliação com base na categoria, preço e avaliações dos hóspedes.</p>
             </div>
-          </div>
-        </div>
+          </article>
+        </section>
 
-        <div class="secao descricao">
-          <p class="texto-descricao">
+        <section class="descricao">
+          <p>
             Apartamento completo com vista incrível para o lago Nahuel Huapi. Localizado em uma das melhores áreas de Bariloche, oferece uma experiência única com toda a comodidade e conforto que você precisa para uma estadia perfeita. A propriedade conta com cozinha totalmente equipada, sala de estar ampla com grandes janelas e um quarto aconchegante.
           </p>
-        </div>
-      </div>
+        </section>
+      </article>
 
-      <div class="cartao-reserva">
-        <div class="cabecalho-preco">
+      <aside class="cartao-reserva" aria-label="Reserva do imóvel">
+        <header class="cabecalho-preco">
           <div class="linha-preco">
-            <span class="preco-antigo">R$3.501</span>
-            <span class="preco-atual">R$2.682</span>
+            <s class="preco-antigo">R$3.501</s>
+            <strong class="preco-atual">R$2.682</strong>
             <span class="periodo-preco">por 5 noites</span>
           </div>
           <div class="linha-avaliacao">
-            <div class="estrela">
-              <img src="./img/star.png"  style="width: 10px;"  alt="star">
-            </div>
-            <span class="nota-avaliacao">4.88</span>
+            <img src="./img/star.png" style="width: 10px;" alt="Ícone estrela">
+            <output class="nota-avaliacao">4.88</output>
             <span class="avaliacoes-quantidade">• 69 avaliações</span>
           </div>
-        </div>
+        </header>
 
-        <div class="formulario-reserva">
-          <div class="inputs-data">
-            <div class="input-data">
-              <label class="rotulo-input">Check-in</label>
-              <input type="text" value="08/09/2025" class="campo-data">
-            </div>
-            <div class="input-data">
-              <label class="rotulo-input">Checkout</label>
-              <input type="text" value="13/09/2025" class="campo-data">
-            </div>
-          </div>
-          <div class="input-hospedes">
-            <label class="rotulo-input">Hóspedes</label>
+        <form class="formulario-reserva">
+          <fieldset class="inputs-data">
+            <legend>Datas da estadia</legend>
+            <label>Check-in
+              <input type="date" value="2025-09-08" class="campo-data">
+            </label>
+            <label>Checkout
+              <input type="date" value="2025-09-13" class="campo-data">
+            </label>
+          </fieldset>
+
+          <label>Hóspedes
             <select class="campo-hospedes">
               <option value="1">1 hóspede</option>
               <option value="2">2 hóspedes</option>
               <option value="3">3 hóspedes</option>
               <option value="4">4 hóspedes</option>
             </select>
-          </div>
-        </div>
+          </label>
+        </form>
 
         <button class="botao-reservar">Reservar</button>
         <p class="texto-sem-cobranca">Você ainda não será cobrado</p>
 
-        <div class="detalhes-preco">
-          <div class="linha-preco-item"><span class="rotulo-preco">R$536 x 5 noites</span><span class="valor-preco">R$2.682</span></div>
-          <div class="linha-preco-item"><span class="rotulo-preco">Taxa de limpeza</span><span class="valor-preco">R$200</span></div>
-          <div class="linha-preco-item"><span class="rotulo-preco">Taxa de serviço do Airbnb</span><span class="valor-preco">R$400</span></div>
-          <hr class="divisor-preco">
-          <div class="linha-preco-item total"><span class="rotulo-preco">Total antes dos impostos</span><span class="valor-preco">R$3.282</span></div>
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <button class="mostrar-mais">  mostrar mais</button>
-    </div>
+        <section class="detalhes-preco">
+          <p><span class="rotulo-preco">R$536 x 5 noites</span><span class="valor-preco">R$2.682</span></p>
+          <p><span class="rotulo-preco">Taxa de limpeza</span><span class="valor-preco">R$200</span></p>
+          <p><span class="rotulo-preco">Taxa de serviço do Airbnb</span><span class="valor-preco">R$400</span></p>
+          <hr>
+          <p class="total"><span>Total antes dos impostos</span><span class="valor-preco">R$3.282</span></p>
+        </section>
+      </aside>
+    </section>
 
     <section class="comodidades">
-      <h2 class="titulo">O que esse lugar oferece</h2>
-
-      <div class="grade-comodidades">
-        <div class="item-comodidade">
-          <span class="icone">🍳</span> Cozinha
-        </div>
-        <div class="item-comodidade">
-          <span class="icone">🚗</span> Estacionamento gratuito na entrada da propriedade: 1 vaga
-        </div>
-        <div class="item-comodidade">
-          <span class="icone">🛁</span> Banheira
-        </div>
-        <div class="item-comodidade">
-          <span class="icone">🛏️</span> Berço portátil para viagem pago: disponível mediante solicitação
-        </div>
-        <div class="item-comodidade indisponivel">
-          <img src="./img/proibido.png" style="width: 20px;" alt="proibido"> Alarme de monóxido de carbono
-        </div>
-        <div class="item-comodidade">
-          <img src="./img/wifi.png"  style="width: 20px;" alt="wifi"> Wi-Fi
-        </div>
-        <div class="item-comodidade">
-          <img src="./img/tv.png" style="width: 20px;" alt="tv"> TV de alta definição de 42 polegadas
-        </div>
-        <div class="item-comodidade">
-          <img src="./img/arvore.png" style="width: 20px;" alt="arvore"> Quintal privado — totalmente cercado
-        </div>
-        <div class="item-comodidade">
-          <img src="./img/camera-de-video.png" style="width: 20px;" alt="camera"> Câmeras de segurança na parte externa da propriedade
-        </div>
-        <div class="item-comodidade indisponivel">
-          <img src="./img/proibido.png" style="width: 20px;" alt="proibido"> Detector de fumaça
-        </div>
-      </div>
-
+      <h2>O que esse lugar oferece</h2>
+      <ul class="grade-comodidades">
+        <li><img src="./img/cozinha.png" style="width: 20px;" alt="Ícone cozinha"> Cozinha</li>
+        <li><img src="./img/car.png" style="width: 20px;" alt="Ícone carro estacionamento"> Estacionamento gratuito na entrada da propriedade: 1 vaga</li>
+        <li><img src="./img/banheira.png" style="width: 20px;" alt="Ícone banheira"> Banheira</li>
+        <li><img src="./img/berco.png" style="width: 20px;" alt="Ícone berço"> Berço portátil para viagem pago</li>
+        <li class="indisponivel"><img src="./img/block.png" style="width: 20px;" alt="Ícone de item indisponível"> Alarme de monóxido de carbono</li>
+        <li><img src="./img/wifi.png" style="width: 20px;" alt="Ícone Wi-Fi"> Wi-Fi</li>
+        <li><img src="./img/tv.png" style="width: 20px;" alt="Ícone TV"> TV de alta definição de 42 polegadas</li>
+        <li><img src="./img/arvore.png" style="width: 20px;" alt="Ícone árvore quintal"> Quintal privado — totalmente cercado</li>
+        <li><img src="./img/camera-de-video.png" style="width: 20px;" alt="Ícone câmera de segurança"> Câmeras de segurança externas</li>
+        <li class="indisponivel"><img src="./img/block.png" style="width: 20px;" alt="Ícone de item indisponível"> Detector de fumaça</li>
+      </ul>
       <button class="botao-mostrar-tudo">Mostrar todas as 43 comodidades</button>
     </section>
 
-    <section class="secao-avaliacoes">
-      <div class="cabecalho-avaliacoes">
+    <section class="secao-avaliacoes" id="avaliacoes">
+      <header class="cabecalho-avaliacoes">
         <h2 class="nota-avaliacoes">4,98</h2>
         <p class="subtitulo-avaliacoes">Preferido dos hóspedes</p>
         <p class="descricao-avaliacoes">
           Esta acomodação está no <b>top 5%</b> dos anúncios elegíveis, baseado em avaliações,
           comentários e confiabilidade
         </p>
-      </div>
+      </header>
 
       <div class="tags-avaliacoes">
         <span>limpo</span>
@@ -239,45 +209,45 @@
       </div>
 
       <div class="grade-avaliacoes">
-        <div class="cartao-avaliacao">
-          <div class="usuario-avaliacao">
-            <img src="./img/user.png" alt="Bruna">
+        <article class="cartao-avaliacao">
+          <header class="usuario-avaliacao">
+            <img src="./img/user.png" alt="Foto de perfil de Bruna">
             <div>
               <p class="nome-usuario">Bruna</p>
               <p class="meta-usuario">10 anos no Airbnb</p>
             </div>
-          </div>
+          </header>
           <p class="data-avaliacao">★★★★★ · junho de 2025 · Ficou algumas noites</p>
-          <p class="texto-avaliacao">
+          <blockquote class="texto-avaliacao">
             Amamos nossa hospedagem na casa do Marcellus! Nos sentimos em casa e muito bem acolhidos!
-          </p>
-          <a href="#">Mostrar mais</a>
-        </div>
+          </blockquote>
+          <a class="mostrar-mais" href="#">Mostrar mais</a>
+        </article>
 
-        <div class="cartao-avaliacao">
-          <div class="usuario-avaliacao">
-            <img src="./img/user.png" alt="Matheus Malzone">
+        <article class="cartao-avaliacao">
+          <header class="usuario-avaliacao">
+            <img src="./img/user.png" alt="Foto de perfil de Matheus Malzone">
             <div>
               <p class="nome-usuario">Matheus Malzone</p>
               <p class="meta-usuario">3 anos no Airbnb</p>
             </div>
-          </div>
+          </header>
           <p class="data-avaliacao">★★★★★ · maio de 2025 · Ficou algumas noites</p>
-          <p class="texto-avaliacao">
+          <blockquote class="texto-avaliacao">
             A acomodação superou todas as expectativas, oferecendo um ambiente extremamente agradável.
-          </p>
-          <a href="#">Mostrar mais</a>
-        </div>
+          </blockquote>
+          <a class="mostrar-mais" href="#">Mostrar mais</a>
+        </article>
       </div>
     </section>
-    <section class="localizacao">
-  <h2 class="titulo-secao">Onde você estará</h2>
-  <p>San Carlos de Bariloche, Argentina</p>
 
-  <div class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192948.50272679026!2d-71.65351771319361!3d-40.91968464747625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a79801a3bf193%3A0x68e6af8aed3dbc6c!2sLago%20Nahuel%20Huapi!5e0!3m2!1spt-BR!2sbr!4v1757284327542!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-</section>
+    <section class="localizacao">
+      <h2>Onde você estará</h2>
+      <p>San Carlos de Bariloche, Argentina</p>
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192948.50272679026!2d-71.65351771319361!3d-40.91968464747625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a79801a3bf193%3A0x68e6af8aed3dbc6c!2sLago%20Nahuel%20Huapi!5e0!3m2!1spt-BR!2sbr!4v1757284327542!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa mostrando a localização do Lago Nahuel Huapi"></iframe>
+      </div>
+    </section>
   </main>
 </body>
 </html>
